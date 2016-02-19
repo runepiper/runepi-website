@@ -11,12 +11,11 @@ html {
     background-color        : #fff;
 }
 body {
-    font-family             : 'Ubuntu', sans-serif;
+    font-family: 'PT Serif', serif;
     font-weight             : 300;
     color                   : #333;
     line-height             : 1.7;
     font-size               : 16px;
-    letter-spacing          : .2px;
 }
 .screener {
     max-width               : 1000px;
@@ -71,7 +70,7 @@ a:active {
     transform               : translateX(-50%);
     line-height             : 1.1;
     text-align              : right;
-    font-weight             : 500;
+    font-weight             : bold;
 }
 
 
@@ -81,7 +80,7 @@ a:active {
 }
 .quote cite {
     display                 : block;
-    font-weight             : 500;
+    font-weight             : bold;
     margin-top              : 20px;
 }
 
@@ -113,6 +112,7 @@ footer {
         transform           : none;
         padding-bottom      : 0;
         text-align          : left;
+        line-height         : 1.25;
     }
 }
 
