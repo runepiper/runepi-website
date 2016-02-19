@@ -115,3 +115,9 @@ footer {
         text-align          : left;
     }
 }
+
+@media all and (max-width: 450px) {
+    .intro-image img {
+        margin-top          : 0;
+    }
+}
