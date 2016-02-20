@@ -39,6 +39,9 @@ a:active {
     background              : #ef7d1b;
     text-shadow             : none;
 }
+strong {
+    font-weight             : bold;
+}
 
 
 .intro-image {
