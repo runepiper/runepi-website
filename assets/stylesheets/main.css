@@ -26,10 +26,12 @@ body {
 }
 a {
     color                   : #ef7d1b;
-}
-a:hover,
-a:active {
     text-decoration         : none;
+    border-bottom           : 1px solid #ef7d1b;
+}
+a:hover {
+    background-color        : #ef7d1b;
+    color                   : #fff;
 }
 ::-moz-selection {
     background              : #ef7d1b;
