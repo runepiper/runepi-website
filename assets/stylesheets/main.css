@@ -3,129 +3,142 @@
     @contact                : http://www.runepiper.de;
     ========================================================================== */
 
+    a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style-position:inside}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a:focus,button:focus{outline:0}button::-moz-focus-inner{border:0}*,:after,:before{box-sizing:border-box;-webkit-tap-highlight-color:transparent;‑webkit‑text‑size‑adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style-position:inside}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a:focus,button:focus{outline:0}button::-moz-focus-inner{border:0}*,:after,:before{box-sizing:border-box;-webkit-tap-highlight-color:transparent;‑webkit‑text‑size‑adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    html {
+        background-color: #fff;
+    }
 
+    body {
+        font-family: 'PT Serif', serif;
+        font-weight: 300;
+        color: #222;
+        line-height: 1.7;
+        font-size: 16px;
+    }
 
-html {
-    background-color        : #fff;
-}
-body {
-    font-family: 'PT Serif', serif;
-    font-weight             : 300;
-    color                   : #222;
-    line-height             : 1.7;
-    font-size               : 16px;
-}
-.screener {
-    max-width               : 1000px;
-    width                   : 100%;
-    margin                  : 0 auto;
-    padding                 : 50px 20px;
-    display                 : block;
-}
-a {
-    color                   : #ef7d1b;
-    text-decoration         : none;
-    border-bottom           : 1px solid #ef7d1b;
-}
-a:hover {
-    background-color        : #ef7d1b;
-    color                   : #fff;
-}
-::-moz-selection {
-    background              : #ef7d1b;
-    text-shadow             : none;
-}
-::selection {
-    background              : #ef7d1b;
-    text-shadow             : none;
-}
-strong {
-    font-weight             : bold;
-}
-em {
-    font-style              : italic;
-}
+    .screener {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 20px;
+        display: block;
+    }
 
+    a {
+        color: #ef7d1b;
+        text-decoration: none;
+        border-bottom: 1px solid #ef7d1b;
+    }
 
-.intro-image {
-    position                : relative;
-    max-height              : 700px;
-    overflow                : hidden;
-}
-.intro-image img {
-    width                   : 100%;
-    margin-top              : -15%;
-    vertical-align          : bottom;
-}
-.intro-image picture:after {
-    content                 : '';
-    background-color        : #222;
-    opacity                 : 0.7;
-    position                : absolute;
-    top                     : 0;
-    right                   : 0;
-    bottom                  : 0;
-    left                    : 0;
-}
-.intro-image h1 {
-    position                : absolute;
-    bottom                  : 0px;
-    color                   : #fff;
-    font-size               : 48px;
-    left                    : 50%;
-    transform               : translateX(-50%);
-    line-height             : 1.1;
-    text-align              : right;
-    font-weight             : bold;
-}
+    a:hover {
+        background-color: #ef7d1b;
+        color: #fff;
+    }
 
+    ::-moz-selection {
+        background: #ef7d1b;
+        text-shadow: none;
+    }
 
-.quote {
-    background-color        : #f5f5f5;
-    text-align              : center;
-}
-.quote cite {
-    display                 : block;
-    font-weight             : bold;
-    margin-top              : 20px;
-}
+    ::selection {
+        background: #ef7d1b;
+        text-shadow: none;
+    }
 
+    strong {
+        font-weight: bold;
+    }
 
-footer {
-    background              : #222;
-    color                   : #fff;
-    text-align              : center;
-}
+    em {
+        font-style: italic;
+    }
 
+    .intro-image {
+        position: relative;
+        max-height: 700px;
+        overflow: hidden;
+    }
+
+    .intro-image img {
+        width: 100%;
+        margin-top: -15%;
+        vertical-align: bottom;
+    }
+
+    .intro-image picture:after {
+        content: '';
+        background-color: #222;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .intro-image h1 {
+        position: absolute;
+        bottom: 0px;
+        color: #fff;
+        font-size: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+        line-height: 1.1;
+        text-align: right;
+        font-weight: bold;
+    }
+
+    .quote {
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+
+    .quote cite {
+        display: block;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+    }
 
 @media all and (max-width: 770px) {
+
     .intro-image h1 {
-        font-size           : 32px;
+        font-size: 32px;
     }
+
 }
 
-
 @media all and (max-width: 570px) {
+
     .intro-image {
-        position            : static;
+        position: static;
     }
+
     .intro-image picture:after {
-        display             : none;
+        display: none;
     }
+
     .intro-image h1 {
-        position            : static;
-        color               : #333;
-        transform           : none;
-        padding-bottom      : 0;
-        text-align          : left;
-        line-height         : 1.25;
+        position: static;
+        color: #333;
+        transform: none;
+        padding-bottom: 0;
+        text-align: left;
+        line-height: 1.25;
     }
+
 }
 
 @media all and (max-width: 450px) {
+    
     .intro-image img {
-        margin-top          : 0;
+        margin-top: 0;
     }
+
 }
