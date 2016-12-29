@@ -38,6 +38,10 @@
         text-shadow: none;
     }
 
+    header {
+        margin-bottom: 50px;
+    }
+
     h1 {
         font-weight: 700;
         font-size: 32px;
