@@ -131,3 +131,7 @@
     footer a[href*="dribbble"]:after {
         background-image: url(../images/dribbble.svg);
     }
+
+    footer a[href*="xing"]:after {
+        background-image: url(../images/xing.svg);
+    }
