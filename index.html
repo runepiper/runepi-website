@@ -27,13 +27,41 @@
         </header>
         <main>
             <article>
-                <h1>Rune Piper, Webentwickler und seitensprung-Designer aus Flensburg, dem echten Norden von Deutschland.</h1>
-                <p>Hi, ich bin Rune aus der Gegend von Flensburg. Ich war schon immer interessiert am Internet und seinen vielfältigen Möglichkeiten.</p>
-                <p>Schon lange hatte ich großes Interesse daran, meine eigenen Websites zu erstellen. Damals, im Sommer 2013, als ich da so auf meinem Bett lag, beschlich mich das Gefühl, dass ich eine eigenen Website bräuchte. Die Baukastensysteme – vorwiegend iWeb – entsprachen allerdings schnell nicht mehr meinen Vorstellungen, weshalb ich einen meiner wichtigsten Schritte tat: Ich begann damit, mir das Programmieren autodidaktisch beizubringen. Die Freude, Lust und das Herzblut stecke ich heute wie damals in meine eigenen Projekte, in die Projekte von Freunden und in die Projekte von visuellverstehen, meinem aktuellen Arbeitgeber.</p>
-                <p>Wenn ich mal nicht hinter meinem Laptop sitze, gehe ich gerne in die Natur und entspanne beim Angeln, gehe ab und zu mal fotografieren oder bin ehrenamtlich in der Jugendarbeit aktiv.</p>
-                <P>Wenn ich hingegen hinter meinem MacBook sitze, dann entwickle ich meine Ideen und die von Freunden & Bekannten. Mein derzeit wichtigstes Projekt ist <em>Biene sucht Blüte</em>, das ich gemeinsam mit meinem Bruder Arne schon seit über einem Jahr entwickle. Es geht im Kern darum, Landwirte und Imker zusammenzubringen, damit Landwirte Bienen zur Bestäubung ihrer Pflanzen und Imker auf diesem Weg Standorte für ihre Bienen finden. Das Tolle an <em>Biene sucht Blüte</em> ist, dass sich jeder eine Anzeige erstellen kann und sich somit die harmlosen Biene auch in den eigenen Garten holen kann.</P>
-                <p>Zum Glück habe ich damals das Programmieren entdeckt, denn sonst wäre ich jetzt wohlmöglich Designer. Zwar bringen mir das Designen und die damit verbundene Kreativität auch sehr viel Spaß, aber es geht nichts über ein fehlendes Semikolon.</p>
+                <img src="https://www.visuellverstehen.de/fileadmin/_processed_/b/9/csm_rune-piper-visuellverstehen-webentwicklung_c34d628b15.jpg">
+                <div>
+                    <h1>Rune Piper</h1>
+                    <p>Webentwickler und seitensprung-Designer aus Flensburg, dem echten Norden von Deutschland.</p>
+                </div>
             </article>
+            <section class="timeline">
+                <ul class="timeline__milestones">
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">1996</span>
+                        <p class="timeline__milestone-description">Als drittes und letztes Kind in meiner Familie in Flensburg geboren.</p>
+                    </li>
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">2007</span>
+                        <p class="timeline__milestone-description">Wechsel von der Grundschule Jarplund zur weiterführenden Fridtjof-Nansen-Schule Flensburg.</p>
+                    </li>
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">2013</span>
+                        <p class="timeline__milestone-description">Erstes zweiwöchiges Praktikum in den Herbstferien bei visuellverstehen als Webentwickler gemacht.</p>
+                    </li>
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">2014</span>
+                        <p class="timeline__milestone-description">Zweites Praktikum im Oktober bei visuellverstehen als Webentwickler gemacht.</p>
+                    </li>
+                    <!-- @TODO: Add internships -->
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">2015</span>
+                        <p class="timeline__milestone-description">Nach der 12. Klasse mit Fachhochschulreife abgegangen und bei visuellverstehen meine Ausbildung zum Fachinformatiker Anwendungsentwicklung angefangen.</p>
+                    </li>
+                    <li class="timeline__milestone">
+                        <span class="timeline__milestone-title">Heute</span>
+                        <p class="timeline__milestone-description">Immernoch Auszubildener bei visuellverstehen.</p>
+                    </li>
+                </ul>
+            </section>
             <section class="projects">
                 <h1>Herzensprojekte</h1>
                 <article>
@@ -45,10 +73,6 @@
                 <article>
                     <p>Der Angelverein in dem ich Mitlied bin, hatte jahrelang eine furchtbare Website. Irgendwann konnte ich alle davon überzeugen, dass ich eine neue machen durfte. Geplant war deutlich mehr, aber so ist es auch schon eine deutliche Verbesserung.</p>
                     <a href="http://www.asv-jarplund-weding.de" title="Angelsportverein Jarplund-Weding e. V." target="_blank" rel="noopener">www.asv-jarplund-weding.de</a>
-                </article>
-                <article>
-                    <p>Mein Bruder ist Imker und möchte seine Zielgruppe mit einem Shop erweitern. Für mich ideal um mit Payment Lösungen zu spielen. Ein kleiner shop frei nach dem Prinzip des »minimal viable product« soll erstmal testen, ob sich Leute im Internet seinen Honig bestellen. Wenn das angenommen wird, wird der Shop weiterentwickelt und die Seite um Inhalte aus seiner Imkerei erweitert.</p>
-                    <a href="http://lecker-honig.sh" title="De lüdde Imkerei" target="_blank" rel="noopener">www.lecker-honig.sh</a>
                 </article>
                 <article>
                     <p>Curry75 war mein erster richtiger Kunde mit dem ich heute noch in Kontakt stehe. Die Seite ist schon ein paar Iteration durchlaufen, gefällt dem Kunden aber nach wie vor.</p>
@@ -68,7 +92,7 @@
         <script>
             var head = document.head;
             head.innerHTML += '<link rel="stylesheet" href="assets/stylesheets/main.css">';
-            // head.innerHTML += '<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">';
+            head.innerHTML += '<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">';
         </script>
     </body>
 </html>

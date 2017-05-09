@@ -1,18 +1,12 @@
 
-    html {
-        background-color: #222;
-    }
-
     body {
         font-family: 'PT Serif', serif;
         font-weight: 300;
-        color: #fff;
+        color: #222;
         line-height: 1.7;
         font-size: 16px;
-        max-width: 1020px;
         width: 100%;
-        margin: 50px auto;
-        padding: 10px;
+        /*padding: 10px;*/
     }
 
     a {
@@ -39,7 +33,53 @@
     }
 
     header {
-        margin-bottom: 50px;
+        max-width: 1020px;
+        margin: 50px auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    article {
+        zoom: 1;
+        max-width: 2000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    article:before,
+    article:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    article:after {
+        clear: both;
+    }
+
+    article img {
+        width: 50%;
+        float: right;
+        max-width: 1000px;
+        min-width: 500px;
+    }
+
+    article div {
+        max-width: 1020px;
+        margin: auto;
+        padding-left: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    article div h1,
+    article div p {
+        width: 50%;
+        padding-right: 50px;
     }
 
     h1 {
@@ -61,8 +101,55 @@
         font-style: italic;
     }
 
+    .timeline {
+        max-width: 1020px;
+        margin: 50px auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .timeline__milestones {
+        border-left: 1px solid #ef7d1b;
+        list-style-type: none;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .timeline__milestone {
+        margin-bottom: 20px;
+    }
+
+    .timeline__milestone:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .timeline__milestone:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #ef7d1b;
+        border-radius: 100%;
+        float: left;
+        margin-left: -25px;
+        margin-top: 21px; /* Half of the title font size */
+    }
+
+    .timeline__milestone-title {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .timeline__milestone-description {
+
+    }
+
     .projects {
-        margin: 50px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 50px auto;
+        max-width: 1020px;
     }
 
     .projects article {
@@ -75,6 +162,10 @@
 
     footer ul {
         list-style-type: none;
+        max-width: 1020px;
+        margin: auto auto 50px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     footer ul:after {
@@ -135,3 +226,28 @@
     footer a[href*="xing"]:after {
         background-image: url(../images/xing.svg);
     }
+
+@media all and (max-width: 870px) {
+
+    article img {
+        float: none;
+        min-width: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    article div {
+        position: relative;
+        transform: none;
+        width: 100%;
+        padding-right: 10px;
+        left: 0;
+    }
+
+    article div h1,
+    article div p {
+        width: 100%;
+        padding-right: 0;
+    }
+
+}
