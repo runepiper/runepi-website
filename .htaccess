@@ -101,6 +101,14 @@ AddEncoding gzip .gzip
 </IfModule>
 ### End: Expires Header ###
 
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} www.runepiper.de$ [NC,OR]
+	RewriteCond %{HTTP_HOST} runepiper.de$ [NC]
+	RewriteCond %{SERVER_PORT} !^443$
+	RewriteRule (.*)  https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
 ### Begin: Top Google Hits ###
 Redirect 301 /ueber-mich/                                          /
 Redirect 301 /kontakt/                                             /
