@@ -8,6 +8,7 @@
 AddEncoding gzip .gzip
 ### End: Compression ###
 
+Options -Indexes
 
 ### Begin: Browser caching of ressource files ###
 # Enable long browser caching for JavaScript and CSS files.
