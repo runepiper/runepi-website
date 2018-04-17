@@ -284,6 +284,10 @@
         background-image: url(../images/xing.svg);
     }
 
+    footer a[href*="gpg.asc"]::after {
+        background-image: url(../images/key.svg);
+    }
+
 @media all and (max-width: 870px) {
 
     article img {
