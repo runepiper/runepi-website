@@ -286,6 +286,27 @@
         background-image: url(../images/key.svg);
     }
 
+    .typo3-community-member {
+        max-width: 1020px;
+        margin: auto auto 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .typo3-community-member__link {
+        max-width: 200px;
+        display: block;
+        border-bottom: 0;
+    }
+
+    .typo3-community-member__link:hover {
+        background-color: transparent;
+    }
+
+    .typo3-community-member__image {
+        display: block;
+    }
+
 @media all and (max-width: 870px) {
 
     article img {
