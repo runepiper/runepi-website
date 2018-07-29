@@ -297,6 +297,11 @@
         max-width: 200px;
         display: block;
         border-bottom: 0;
+        display: inline-block;
+    }
+
+    .typo3-community-member__link:not(:last-of-type) {
+        margin-right: 20px;
     }
 
     .typo3-community-member__link:hover {
@@ -305,6 +310,7 @@
 
     .typo3-community-member__image {
         display: block;
+        height: 100px;
     }
 
 @media all and (max-width: 870px) {
