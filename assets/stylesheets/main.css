@@ -215,12 +215,20 @@
         top: 0;
     }
 
+    footer {
+        background-color: #f5f5f5;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
     footer ul {
         list-style-type: none;
         max-width: 1020px;
-        margin: auto auto 50px;
+        margin: auto auto 30px;
         padding-left: 10px;
         padding-right: 10px;
+        display: table;
     }
 
     footer ul::after {
@@ -230,8 +238,9 @@
     }
 
     footer li {
-        float: left;
+        display: inline-block;
         margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     footer li:last-of-type {
@@ -239,56 +248,13 @@
     }
 
     footer a {
-        color: transparent;
-        font-size: 0;
-        line-height: 0;
+        font-size: 12px;
         display: block;
-        border-bottom: none;
-    }
-
-    footer a:hover {
-        background-color: transparent;
-        opacity: 0.7;
-    }
-
-    footer a::after {
-        content: '';
-        display: block;
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        background-color: transparent;
-        background-size: 100% auto;
-        padding-top: 100%;
-        width: 30px;
-    }
-
-    footer a[href*="twitter"]::after {
-        background-image: url(../images/twitter.svg);
-    }
-
-    footer a[href*="instagram"]::after {
-        background-image: url(../images/instagram.svg);
-    }
-
-    footer a[href*="github"]::after {
-        background-image: url(../images/github.svg);
-    }
-
-    footer a[href*="dribbble"]::after {
-        background-image: url(../images/dribbble.svg);
-    }
-
-    footer a[href*="xing"]::after {
-        background-image: url(../images/xing.svg);
-    }
-
-    footer a[href*="gpg.asc"]::after {
-        background-image: url(../images/key.svg);
     }
 
     .typo3-community-member {
         max-width: 1020px;
-        margin: auto auto 50px;
+        margin: auto;
         padding-left: 10px;
         padding-right: 10px;
     }
