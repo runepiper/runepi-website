@@ -147,35 +147,6 @@
         font-size: 32px;
     }
 
-    .timeline__milestone-description {
-
-    }
-
-    .higgs {
-        padding: 50px 0;
-        background-color: #FBFFA3;
-        background-image: linear-gradient(-205deg, #FBFFA3 0%, #A0FCFF 100%);
-    }
-
-    .higgs article {
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 50px auto;
-        max-width: 1020px;
-    }
-
-    .higgs article h2 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 1.2;
-        margin-bottom: 10px;
-    }
-
-    .higgs article a {
-        margin-top: 10px;
-        display: inline-block;
-    }
-
     .projects {
         padding-left: 10px;
         padding-right: 10px;
