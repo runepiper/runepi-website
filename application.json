@@ -1,0 +1,20 @@
+{
+    "status": "👀 Offen für Jobangebote",
+    "name": "Rune Piper",
+    "location": "⚓️ Flensburg",
+    "education": "👨‍🎓 Fachinformatiker für Anwendungsentwicklung, TYPO3 Certified Developer",
+    "skills": ["TYPO3", "Laravel", "PHP", "MySQL", "HTML", "CSS", "JavaScript", "Git", "Vue.js", "GitLab", "GitHub", "Webentwicklung"],
+    "experience": ["Full Stack Entwickler bei visuellverstehen"],
+    "requirements": [
+        {
+            "name": "Kleines Unternehmen",
+            "description": "In einem kleinen Unternehmen ist alles ein bisschen familiärer und gelassener. Auf lange Entscheidungswege und konzernartige Strukturen habe ich kein Lust. Du?"
+        },
+        {
+            "name": "💰 Gehalt",
+            "description": "Mein aktuelles Gehalt ist mit 3.400 Euro brutto nicht schlecht. Ein geringeres Gehalt würde sich für mich nicht lohnen."
+        }
+    ],
+    "contact": "📧 kontakt@runepiper.de",
+    "cv": "https://www.xing.com/profile/Rune_Piper"
+}
