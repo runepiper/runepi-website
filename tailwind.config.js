@@ -2,15 +2,19 @@ module.exports = {
   purge: [
     'index.html',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
         gray: {
-          100: '#f5f5f5'
+          100: '#f5f5f5',
+          700: '#484848'
         },
         yellow: {
           500: '#ef7d1b'
+        },
+        black: {
+          DEFAULT: '#333333'
         }
       }
     },
