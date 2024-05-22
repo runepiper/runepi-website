@@ -37,10 +37,12 @@ jobs:
           retention-days: 1
 
   deploy:
+    needs: [build-fe]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    container: alpine
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
@@ -50,7 +52,6 @@ jobs:
       - run: tar -xf artifacts.tar assets
       - name: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
