@@ -21,7 +21,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - run: npm ci
       - run: NODE_ENV=production npx tailwindcss -o assets/stylesheets/main.css --minify
-      - name: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
