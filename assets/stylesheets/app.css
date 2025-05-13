@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@source "../../";
+
+/* https://tailwindcss.com/docs/theme#default-theme-variable-reference */
+@theme {
+    /* Colors */
+    --color-gray-100: #f5f5f5;
+    --color-gray-700: #484848;
+    --color-yellow-500: #ef7d1b;
+}

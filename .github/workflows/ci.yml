@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - run: npm ci
-      - run: NODE_ENV=production npx tailwindcss -o assets/stylesheets/main.css --minify
+      - run: npx @tailwindcss/cli -i assets/stylesheets/app.css -o assets/stylesheets/main.css --minify
       - run: sed -i "s/{version}/$(date '+%s')/g" index.html
       - run: rm -rf node_modules
       - uses: actions/upload-pages-artifact@v3
